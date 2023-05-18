@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f3f3f5;
+    color: #333;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.a {
+    text-decoration: none;
+    color: #fff;
+    
+    transition: font-weight 0.2s;
+}
+
+.a:link {
+    text-decoration: none;
+}
+
+.a:visited {
+    text-decoration: none;
+}
+
+.a:hover {
+    font-weight: bold;
+}
+
+.container {
+    background: #fff;
+    max-width: 450px;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 12px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.form {
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.form form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.form label {
+    font-weight: bold;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.form input {
+    height: 32px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    padding-left: 12px;
+    border: 1px solid #999;
+    border-radius: 4px;
+}
+
+.form input:focus {
+    background: #f0f0f5;
+}
+
+.form button {
+    background: #ab47bc;
+    height: 32px;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.form button:hover {
+    background: #ce93d8;
+}
+
+.separator {
+    background: #bbb;
+    height: 2px;
+    border-radius: 1px;
+}
+
+.list-tasks {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.list-tasks ul {
+    list-style: none;
+}
+
+.list-tasks ul li {
+    background: #4db6ac;
+    height: 32px;
+    border-radius: 4px;
+    color: #fff;
+    margin-top: 8px;
+    margin-bottom: 4px;
+    padding: 12px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    transition: background 0.3s;
+}
+
+.list-tasks ul li:hover {
+    cursor: pointer;
+    background: #80cbc4;
+}
+
+.list-tasks ul li button {
+    background: #EC7063;
+    padding: 4px;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+    transition: background 0.3s;
+}
+
+.list-tasks ul li button:hover {
+    background: #F5B7B1 ;
+}
+
+.footer {
+    background: #f0f0f5;
+    border-radius: 4px;
+    padding: 12px;
+}
+
+.footer p {
+    color: #999;
+    font-size: 12px;
+}
+
+.details-container {
+    background: #fff;
+    max-width: 700px;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 12px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+}
+
+.details {
+    width: 100%;
+    border:  1px solid #f0f0f5;
+    border-radius: 4px;
+    margin-right: 4px;
+    margin-left: 8px;
+    padding: 16px;
+}
+
+.details dl dt {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    font-weight: bold;
+    color: #666;
+}
+
+.details dl dd {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    color: #999;
+}
+
+.image img{
+    max-width: 100%;
+    width: auto;
+    border:  1px solid #f0f0f5;
+    border-radius: 4px;
+}
+
+.alert-success {
+    background: #A5D6A7;
+    padding: 12px;
+    width: 100%;
+    color: #388E3C;
+    font-size: 14px;
+    font-weight: medium;
+    border-radius: 4px;
+}
+
+.alert-error{
+    background: #EF9A9A;
+    padding: 12px;
+    width: 100%;
+    color: #D32F2F;
+    font-size: 14px;
+    font-weight: medium;
+    border-radius: 4px;
+}
+
+  #calendar-container {
+    background: #fff;
+    margin: 64px;
+    padding: 32px;;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+  .fc-header-toolbar {
+    /*
+    the calendar will be butting up against the edges,
+    but let's scoot in the header's buttons
+    */
+    padding-top: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+
+  .btn-calendar {
+    background: #999;
+    color:#333;
+    padding: 4px;
+    border-radius: 4px;
+    font-weight: 500;
+    text-decoration: none;
+  }
+
+  .btn-calendar:link {
+    text-decoration: none;
+  }
+
+  .btn-calendar:visited {
+    text-decoration: none;
+  }
